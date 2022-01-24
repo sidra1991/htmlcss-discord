@@ -1,4 +1,55 @@
-.top-background {
-    background-image: url(../img/img/logo.svg);
 
+/* COMANDI CONDIVISI IN PIÙ PARTI E GENERICI*/
+ul {
+    list-style: none;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenitore {
+    background-color:rgba(100, 0, 0, 0.4);
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+/* stile specifico in ordine sopra a sotto*/
+
+
+.top-back {
+    background-image: url(../img/img/jumbo.png);
+    background-size: cover;
+    color: white;
+}
+
+nav ul a {
+    color: white;
+}
+
+nav ul {
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav img {
+    position: relative;
+    top:14px;
+}
+
+nav button {
+    border-radius: 40%;
+    height: 35px;
+    width: 68px;
+}
+
+/* PRESENTAZIONE PAGINA */
