@@ -7,6 +7,12 @@
     font-family: inherit;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 .super {
     height: 100vh;
 }
@@ -41,6 +47,23 @@ a {
     left: 15%;
 }
 
+.meta{
+    width: 80%;
+    display: inline-block;
+    float:left;
+}
+
+.meta-testo{
+    padding-top: 2rem;
+    width: 20%;
+    display: inline-block;
+    float:left;
+}
+
+svg {
+    width: 100%;
+    position: relative;
+}
 
 /* header e nav */
 .back1 {
@@ -49,10 +72,10 @@ a {
 }
 
 nav {
-    margin-left: 15%;
+    margin-left: 13%;
     padding-top: 1rem; 
     position: fixed;
-    width: 70%;
+    width: 72%;
 }  
 
 nav li {
@@ -104,4 +127,8 @@ nav button a {
 #bottone-nero {
     background-color: black;
     color: white;
+}
+
+#rana {
+
 }
