@@ -26,6 +26,21 @@ button {
     float: left;
 }
 
+.contenitore div {
+    display: inline-block;
+    width: 300px;
+    text-align: inherit;
+}
+
+section img {
+    width: 390px;
+    margin-left: 3rem;
+    margin-right: 4rem;
+}
+
+section {
+    margin-top: 3rem;
+}
 /* stile specifico in ordine sopra a sotto*/
 
 
@@ -89,24 +104,12 @@ a span {
 
 .parte2 {
     display: inline-block;
-    text-align: inherit;
     margin-top: 4rem;
-}
-
-.parte2 img {
-    width: 390px;
-    margin-left: 3rem;
-    margin-right: 4rem;
-}
-
-.parte2 div {
-    display: inline-block;
-    width: 300px;
 }
 
 /* parte 3 */
 
-.green {
+.gray {
     background-color: #e6e6e6;
     width: 100%;
 }
