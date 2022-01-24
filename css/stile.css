@@ -22,6 +22,16 @@ button {
  padding:7px 16px;
 }
 
+.clear::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.clear img {
+    float: left;
+}
+
 /* stile specifico in ordine sopra a sotto*/
 
 
@@ -58,7 +68,7 @@ background-color: white;
 /* PRESENTAZIONE PAGINA */
 
 header{
-    padding-bottom: 12rem;
+    padding-bottom: 8rem;
 }
 
 header h1 {
@@ -79,4 +89,25 @@ a span {
 
 .bt2 a {
     color: white;
+}
+
+/* PARTE 2 */
+
+.parte2 {
+    display: inline-block;
+    text-align: inherit;
+    float: left;
+    margin-top: 4rem;
+}
+
+.parte2 img {
+    width: 390px;
+    margin-left: 3rem;
+    margin-right: 4rem;
+}
+/* parte 3 */
+
+.green {
+    background-color: #e6e6e6;
+    width: 100%;
 }
