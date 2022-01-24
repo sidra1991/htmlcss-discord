@@ -7,15 +7,15 @@
     font-family: inherit;
 }
 
+.tex-centrale {
+    text-align: center;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
-
-.super {
-    height: 100vh;
-}
 
 p {
     overflow-wrap: break-word;
@@ -48,13 +48,15 @@ a {
 }
 
 .meta{
-    width: 80%;
+    width: 60%;
     display: inline-block;
     float:left;
 }
 
 .meta-testo{
-    padding-top: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5rem;
     width: 20%;
     display: inline-block;
     float:left;
@@ -63,6 +65,11 @@ a {
 svg {
     width: 100%;
     position: relative;
+}
+
+.grigia {
+    margin-top: 0;
+    background-color: #f6f6f6;
 }
 
 /* header e nav */
@@ -74,7 +81,6 @@ svg {
 nav {
     margin-left: 13%;
     padding-top: 1rem; 
-    position: fixed;
     width: 72%;
 }  
 
@@ -116,7 +122,6 @@ nav button a {
 }
 
 .presentazione {
-    background-color: rgba(100, 0, 0, 0.2);
     text-align: center;
     top: 30%;
     left: 32%;
@@ -129,6 +134,10 @@ nav button a {
     color: white;
 }
 
-#rana {
+#ondulato path{
+    fill: #f6f6f6;
+}
 
+#ondu-bianco path {
+    fill: white;
 }
