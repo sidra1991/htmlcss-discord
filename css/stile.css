@@ -7,6 +7,11 @@
     font-family: inherit;
 }
 
+.super{
+    width: 74.5rem;
+    height: 40rem;
+}
+
 .tex-centrale {
     text-align: center;
 }
@@ -43,7 +48,7 @@ a {
 }
 
 .central {
-    width: 70%;
+    width: 53rem;
     position: relative;
     left: 15%;
 }
@@ -139,6 +144,11 @@ nav button a {
     fill: #f6f6f6;
 }
 
+.correzione{
+    display: inline-block;
+    width: 74.5rem;    
+}
+
 #ondu-bianco path {
     fill: white;
 }
@@ -159,6 +169,7 @@ nav button a {
 
 footer {
     background-color: black;
+    text-align: center;
 }
 
 footer h3{ 
