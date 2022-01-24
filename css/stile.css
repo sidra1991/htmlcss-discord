@@ -1,8 +1,74 @@
-.super {
-    height: 100vh;
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: inherit;
 }
+
 
 .back1 {
     background-image: url(../img/img/jumbo.png);
     background-size: cover;
+}
+
+nav {
+    margin-left: 15%;
+    padding-top: 1rem; 
+    position: fixed;
+    width: 70%;
+}  
+
+nav li {
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
+
+.svg {
+    display: inline-block;
+}
+
+ul {
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav img {
+    width: 100px;
+    margin-right: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color:white;
+}
+
+nav button {
+    display: inline-block;
+    position:relative;
+    bottom: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 1px black;
+}
+
+nav button a {
+    color: black;
+}
+
+/* parti in comune */
+
+.super {
+    height: 100vh;
+}
+
+button {
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16 px;
 }
